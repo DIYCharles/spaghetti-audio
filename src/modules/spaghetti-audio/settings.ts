@@ -32,11 +32,12 @@ const settings: Settings = {
   hiRange: { start: 0, end: 600 },
   localStorageKey: 'spaghetti',
   minStringLength: 30,
-  hitboxSize: 50,
-  spaghettiColor: '#f76c6c',
+  hitboxSize: 550,
+  spaghettiColor: '#005DFF',
   spaghettiWidth: 4,
-  totalPoints: 5,
   viscosity: 10,
+  debug: true,
+  totalPoints: 10,
 }
 
 export default settings
