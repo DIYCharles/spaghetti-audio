@@ -26,8 +26,8 @@
     "node": "10.21.0"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "build": "webpack -p --config webpack.prod.js --output public",
+    "prepublishOnly": "npm run build --output public",
+    "build": "webpack -p --config webpack.prod.js",
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js --host 0.0.0.0",
     "lint": "eslint . --ext .ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
